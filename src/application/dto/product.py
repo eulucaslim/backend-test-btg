@@ -3,8 +3,7 @@ from decimal import Decimal
 
 
 @dataclass(frozen=True)
-class Product:
-    id: int
+class ProductDTO:
     name: str
     quantity: int
     price: Decimal
